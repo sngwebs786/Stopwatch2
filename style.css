@@ -1,0 +1,86 @@
+.stopWatch {
+    height: 635px;
+    width: 350px;
+    margin: 0 auto;
+    background-color: rgb(32, 32, 53);
+}
+
+.heading {
+    font-family: sans-serif;
+    color: white;
+}
+
+.sw {
+    font-family: 'Sahitya', serif;
+    font-size: 36px;
+    display: inline-block;
+}
+
+.timerPortion {
+    background-color: rgb(32, 32, 53);
+    height: 100px;
+    width: 100%;
+}
+
+.timerPortion span {
+    color: white;
+    display: inline-block;
+    font-size: 45px;
+    margin: 2px;
+}
+
+.btnPortion {
+    background-color: rgb(32, 32, 53);
+    height: 80px;
+}
+
+.btnPortion button {
+    background-color: rgb(32, 32, 53);
+    color: white;
+    border: 7px double rgb(209, 20, 51);
+    border-radius: 100px;
+    outline: none;
+    width: 70px;
+    margin: 05px;
+    position: relative;
+    left: 10px;
+    height: 70px;
+}
+
+#list {
+    list-style: none;
+    display: block;
+    padding: 10px;
+    font-size: 24px;
+    /* border-top: 3px dotted rgb(209, 20, 51); */
+    /* border-bottom: 3px dotted rgb(209, 20, 51); */
+}
+
+.lapsPortion {
+    color: white;
+    font-family: sans-serif;
+    height: 250px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+}
+
+extra {
+    color: rgb(209, 20, 51);
+}
+
+.js-cross-btn {
+    height: 20px;
+    width: 20px;
+    float: right;
+}
+
+.crossBtn {
+    background-color: rgb(32, 32, 53);
+    width: 20px;
+    border-radius: 50px;
+    outline: none !important;
+    border: none;
+    float: right;
+}

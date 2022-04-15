@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+        /* width */
+        
+         ::-webkit-scrollbar {
+            width: 10px;
+        }
+        /* Track */
+        
+         ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        /* Handle */
+        
+         ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+        /* Handle on hover */
+        
+         ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    </style>
+    <section class="stopWatch">
+        <center>
+            <div class="heading">
+                <h3 class="sw">
+                    <extra> S</extra>top
+                    <extra>W</extra>atch
+                </h3>
+            </div>
+        </center>
+        <div class="timerPortion">
+
+            <center>
+                <h1 id="times">
+                    <span id="hours">00</span>
+                    <span>:</span>
+                    <span id="mins">00</span>
+                    <span>:</span>
+                    <span id="sec">00</span>
+                    <span>:</span>
+                    <span id="msec">00</span>
+                </h1>
+            </center>
+        </div>
+
+        <div class="btnPortion">
+            <button id="startBtn" onclick="startTimer()">Start</button>
+            <button id="stopBtn" onclick="stopTimer()">Stop</button>
+            <button id="resetBtn" onclick="resetTimer()">Reset</button>
+            <button id="lapBtn" onclick="lap()">Lap</button>
+        </div>
+
+        <div class="lapsPortion">
+            <ul id="list"></ul>
+        </div>
+
+    </section>
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
